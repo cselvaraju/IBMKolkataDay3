@@ -1,0 +1,6 @@
+<h3>List of Users</h3>
+<ul>
+  <li *ngFor="let user of userList; index as ndx">
+    User - {{ndx + 1}}: Name: {{user.name}} City: {{user.city}}
+  </li>
+</ul>
